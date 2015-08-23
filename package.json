@@ -1,0 +1,24 @@
+{
+  "name": "couch-restore",
+  "version": "0.0.1",
+  "description": "A simple utility for restoring couchdb databases",
+  "main": "./lib/couch-restore.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "directories": {
+    "bin": "./bin"
+  },
+  "preferGlobal": "true",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:homerjam/couch-restore.git"
+  },
+  "author": "James Homer",
+  "license": "BSD",
+  "dependencies": {
+    "bluebird": "^2.9.13",
+    "commander": "^2.6.0",
+    "nano": "^6.1.5"
+  }
+}
